@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-23T06:21:30.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="5_y_fHH39PPAiIknhR_d" version="12.4.3" type="github" pages="3">
-  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1136" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+<mxfile host="www.draw.io" modified="2019-12-23T06:57:01.425Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="VEQjJoEHcfc6sWJ7G0KW" version="12.4.3" type="github" pages="4">
+  <diagram name="Sample Diagram" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1113" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -146,8 +146,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Dn_bwX7hOgFmhjmSjusN" name="Page-2">
-    <mxGraphModel dx="1522" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram id="Dn_bwX7hOgFmhjmSjusN" name="C2 NGOD Proxy">
+    <mxGraphModel dx="1113" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="wc9i_Mc6pn1CzCdAg7nn-0"/>
         <mxCell id="wc9i_Mc6pn1CzCdAg7nn-1" parent="wc9i_Mc6pn1CzCdAg7nn-0"/>
@@ -381,8 +381,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tjtleT_TgYxIpOnWWQIv" name="Page-3">
-    <mxGraphModel dx="936" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram id="tjtleT_TgYxIpOnWWQIv" name="C2 Gateway with MT">
+    <mxGraphModel dx="890" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="Otw2LEP0xJko5beYyQ__-0"/>
         <mxCell id="Otw2LEP0xJko5beYyQ__-1" parent="Otw2LEP0xJko5beYyQ__-0"/>
@@ -642,6 +642,122 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="690.3400000000001" y="473" as="sourcePoint"/>
             <mxPoint x="1009.9959999999996" y="472.9" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LY4LiswbryAVe5JAHWqj" name="Native TS Streaming">
+    <mxGraphModel dx="980" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="Hev_mIhl_kZcgkM2svTC-0"/>
+        <mxCell id="Hev_mIhl_kZcgkM2svTC-1" parent="Hev_mIhl_kZcgkM2svTC-0"/>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-0" value="STB (via IP QAM)" style="html=1;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="190" y="60" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-1" value="VBO" style="html=1;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="400" y="60" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-2" value="C-CDN TS Front&lt;br&gt;VDS-TV" style="html=1;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="610" y="60" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-3" value="C-CDN&amp;nbsp;&lt;br&gt;(OMD, &lt;br&gt;C2 Proxy&lt;br&gt;C2 Gateway&lt;br&gt;ARB2TS)" style="html=1;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="810" y="20" width="195" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="240" y="110" width="10" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="450" y="110" width="10" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="660" y="110" width="10" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry x="902.5" y="110" width="10" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-12" value="Session Setup (S1)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="160" as="sourcePoint"/>
+            <mxPoint x="440" y="160" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-13" value="SS setup (R2)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.3;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1" target="hMCv4Aa8Dzm3Zmg_gkQ6-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="180" as="sourcePoint"/>
+            <mxPoint x="540" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-18" value="c2service.ccdn.com&lt;br&gt;C2 Locate&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.45;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1" target="hMCv4Aa8Dzm3Zmg_gkQ6-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="670" y="230" as="sourcePoint"/>
+            <mxPoint x="750" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-20" value="Setup response&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="269" as="sourcePoint"/>
+            <mxPoint x="463" y="269.15" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-21" value="Control Handle rtsp to VDS-TV" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint"/>
+            <mxPoint x="260" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-25" value="PLAY (C1)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.22;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint"/>
+            <mxPoint x="660" y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-26" value="C2 Transfer&lt;br&gt;Range:Bytes=x-y" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint"/>
+            <mxPoint x="900" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-27" value="Chunk#1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1" target="hMCv4Aa8Dzm3Zmg_gkQ6-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="400" as="sourcePoint"/>
+            <mxPoint x="820" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-28" value="Chunk#2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="897" y="434.6" as="sourcePoint"/>
+            <mxPoint x="670" y="434.5000000000001" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-30" value="TS via UDP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.5;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1" target="hMCv4Aa8Dzm3Zmg_gkQ6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint"/>
+            <mxPoint x="580" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-34" value="TS via UDP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.5;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="530" as="sourcePoint"/>
+            <mxPoint x="250" y="535.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-36" value="C2 Transfer&lt;br&gt;Range:Bytes=n-m" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="673" y="471" as="sourcePoint"/>
+            <mxPoint x="903" y="471" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-37" value="Chunk#1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="903" y="501" as="sourcePoint"/>
+            <mxPoint x="676" y="500.9000000000001" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMCv4Aa8Dzm3Zmg_gkQ6-38" value="Chunk#2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Hev_mIhl_kZcgkM2svTC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="535.5999999999999" as="sourcePoint"/>
+            <mxPoint x="673" y="535.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
