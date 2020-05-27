@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-05-27T03:55:03.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="RcNAxnVTr4dVXAUGfzGQ" version="13.0.9" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-05-27T04:01:33.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ccprHIQGjDVQkPar0GJa" version="13.0.9" type="github" pages="6">
   <diagram id="Dn_bwX7hOgFmhjmSjusN" name="C2 NGOD Proxy">
     <mxGraphModel dx="1179" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -1742,10 +1742,10 @@
         <mxCell id="rp1blV9gxdxiNhy0VH0z-2" value="&lt;ul&gt;&lt;li&gt;CDE290 HW Spec&lt;/li&gt;&lt;li&gt;Storage Drives: 26TB HDD 24 x 1.2TB HDD, SATA Drives&lt;/li&gt;&lt;li&gt;Size: 2RU&lt;/li&gt;&lt;li&gt;CPU: 2x2.3GHz with 12 Cores&lt;/li&gt;&lt;li&gt;Memory:192GB&lt;/li&gt;&lt;li&gt;10G NIC: 8&lt;/li&gt;&lt;li&gt;1G NIC:4&lt;/li&gt;&lt;li&gt;Boot Drives: 2x480 SSD&lt;/li&gt;&lt;li&gt;Power Supply:2x1200W AC or DC&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
           <mxGeometry x="20" y="20" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="rp1blV9gxdxiNhy0VH0z-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
+        <mxCell id="rp1blV9gxdxiNhy0VH0z-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
           <mxGeometry x="690" y="200" width="340" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="rp1blV9gxdxiNhy0VH0z-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;top" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
+        <mxCell id="rp1blV9gxdxiNhy0VH0z-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;top;fillColor=none;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
           <mxGeometry x="210" y="200" width="340" height="340" as="geometry" />
         </mxCell>
         <mxCell id="rp1blV9gxdxiNhy0VH0z-8" value="10GE switch" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
@@ -1796,10 +1796,10 @@
             <mxPoint x="800" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rp1blV9gxdxiNhy0VH0z-46" value="ESXi/Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
+        <mxCell id="rp1blV9gxdxiNhy0VH0z-46" value="ESXi/Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
           <mxGeometry x="212.5" y="500" width="335" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rp1blV9gxdxiNhy0VH0z-47" value="ESXi/Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
+        <mxCell id="rp1blV9gxdxiNhy0VH0z-47" value="ESXi/Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
           <mxGeometry x="692.5" y="500" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rp1blV9gxdxiNhy0VH0z-48" value="External Network" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.external_networks;" vertex="1" parent="rp1blV9gxdxiNhy0VH0z-1">
