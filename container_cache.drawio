@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T16:13:12.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="saqKRC4FRFmt8PbQ1aMY" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:21:33.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="0R7RIzGY7OTBZk5cgQMW" version="15.3.7" type="github">
   <diagram id="yBUKa3N6ODurLHpnwnWa" name="Page-1">
-    <mxGraphModel dx="967" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1155" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZCX1qqD5gtby1FbysgLQ-109" value="CDN Data Plane" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="460" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="ZCX1qqD5gtby1FbysgLQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="1" source="ZCX1qqD5gtby1FbysgLQ-24" target="ZCX1qqD5gtby1FbysgLQ-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -99,6 +102,12 @@
         </mxCell>
         <mxCell id="ZCX1qqD5gtby1FbysgLQ-104" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/significon-social/512/Significon-YouTube-128.png" vertex="1" parent="1">
           <mxGeometry x="870" y="461" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCX1qqD5gtby1FbysgLQ-105" value="Traffic Monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="375" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCX1qqD5gtby1FbysgLQ-107" value="Routing&amp;nbsp;&lt;br&gt;Policy&lt;br&gt;DNS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
