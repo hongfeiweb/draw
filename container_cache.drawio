@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T20:57:12.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="KXwTp6z2zydVBAbiu3Bf" version="15.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-07T20:58:29.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="7H7aLTgLAZILpCZoiczz" version="15.3.7" type="github" pages="2">
   <diagram id="yBUKa3N6ODurLHpnwnWa" name="Page-1">
     <mxGraphModel dx="1155" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3ecSuqMmrtRNR169ro-S" name="Page-2">
-    <mxGraphModel dx="830" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1231" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="vk6qnS6NGIDS7BdwkZoj-0" />
         <mxCell id="vk6qnS6NGIDS7BdwkZoj-1" parent="vk6qnS6NGIDS7BdwkZoj-0" />
@@ -340,7 +340,7 @@
         <mxCell id="vk6qnS6NGIDS7BdwkZoj-174" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod;align=left;verticalAlign=top;" vertex="1" parent="vk6qnS6NGIDS7BdwkZoj-173">
           <mxGeometry width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="vk6qnS6NGIDS7BdwkZoj-175" value="&lt;b&gt;ingress load balancer container:&lt;br&gt;host-news-&amp;gt;svc-news&lt;br&gt;host-sports-&amp;gt;svc-sports&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=center;verticalAlign=top;" vertex="1" parent="vk6qnS6NGIDS7BdwkZoj-173">
+        <mxCell id="vk6qnS6NGIDS7BdwkZoj-175" value="&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;ingress lb container:&lt;br&gt;host-news-&amp;gt;svc-news&lt;br&gt;host-sports-&amp;gt;svc-sports&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=center;verticalAlign=top;" vertex="1" parent="vk6qnS6NGIDS7BdwkZoj-173">
           <mxGeometry x="80" y="10" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="vk6qnS6NGIDS7BdwkZoj-177" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png;rounded=0;sketch=0;imageBackground=#CCFF99;" vertex="1" parent="vk6qnS6NGIDS7BdwkZoj-173">
